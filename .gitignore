@@ -1,0 +1,12 @@
+# folders
+saves/
+shaderpacks/
+XaeroWaypoints/
+XaeroWorldMap/
+mods/
+logs/
+
+# files
+.curseclient
+usercache.json
+usernamecache.json
