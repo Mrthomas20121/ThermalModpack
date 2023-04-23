@@ -1,0 +1,17 @@
+{
+  "type": "thermal:crystallizer",
+  "ingredients": [
+    {
+      "fluid": "thermal:redstone",
+      "amount": 400
+    },
+	{
+      "item": "thermal:gold_dust"
+    }
+  ],
+  "result": [
+    {
+      "item": "redstone_arsenal:flux_dust"
+    }
+  ]
+}
