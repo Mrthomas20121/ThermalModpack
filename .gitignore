@@ -5,6 +5,9 @@ XaeroWaypoints/
 XaeroWorldMap/
 mods/
 logs/
+screenshots/
+modernfix/
+lightspeed-cache/
 
 # files
 .curseclient

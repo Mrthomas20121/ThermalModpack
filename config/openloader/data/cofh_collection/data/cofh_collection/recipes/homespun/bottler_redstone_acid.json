@@ -1,0 +1,17 @@
+{
+  "type": "thermal:bottler",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "fluid": "thermal:redstone",
+      "amount": 100
+    }
+  ],
+  "result": [
+    {
+      "item": "homespun:redstone_acid"
+    }
+  ]
+}
