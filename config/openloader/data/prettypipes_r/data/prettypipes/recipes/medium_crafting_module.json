@@ -1,0 +1,22 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      " Q ",
+      "CLC",
+      " Q "
+    ],
+    "key": {
+        "Q": {
+          "item": "minecraft:quartz"
+        },
+        "C": {
+          "item": "minecraft:crafting_table"
+        },
+      "L": {
+        "item": "prettypipes:low_crafting_module"
+      }
+    },
+    "result": {
+      "item": "prettypipes:medium_crafting_module"
+    }
+  }

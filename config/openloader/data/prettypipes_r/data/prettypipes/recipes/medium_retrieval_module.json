@@ -1,0 +1,22 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      " Q ",
+      "ELE",
+      " Q "
+    ],
+    "key": {
+        "Q": {
+          "item": "minecraft:quartz"
+        },
+        "E": {
+          "tag": "forge:nuggets/electrum"
+        },
+      "L": {
+        "item": "prettypipes:low_retrieval_module"
+      }
+    },
+    "result": {
+      "item": "prettypipes:medium_retrieval_module"
+    }
+  }

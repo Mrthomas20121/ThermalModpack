@@ -1,0 +1,22 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      " D ",
+      "RMR",
+      " R "
+    ],
+    "key": {
+        "D": {
+          "tag": "forge:dusts/diamond"
+        },
+        "R": {
+          "item": "minecraft:redstone_block"
+        },
+      "M": {
+        "item": "prettypipes:medium_retrieval_module"
+      }
+    },
+    "result": {
+      "item": "prettypipes:high_retrieval_module"
+    }
+  }
