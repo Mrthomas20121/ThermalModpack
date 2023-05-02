@@ -1,0 +1,94 @@
+{
+	id: "28A6466A08CCD11B"
+	group: ""
+	order_index: 0
+	filename: "intro"
+	title: "Intro"
+	icon: "thermal:sugar_cane_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome Guide!"
+			icon: "thermal:wrench"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Welcome Guide to CoFH's Collection"
+			description: [
+				"&aCoFH's Collection&r is a modpack based on Team CoFH's Mods."
+				""
+				"This modpack is a &eKitchen Sink&r modpack with quests to guide you through."
+				""
+				"Some mods has been tweaked to have a better compatibility with other mods."
+			]
+			id: "0F0437DA98D76DD4"
+			tasks: [{
+				id: "3EF87736F7941DC2"
+				type: "checkmark"
+				title: "Accept"
+			}]
+		}
+		{
+			title: "Books!"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "thermal:guidebook"
+				}
+			}
+			x: 3.0d
+			y: 0.0d
+			description: [
+				"Here is the guide books for the mods in the pack."
+				""
+				"However the Thermal book contain outdated information."
+				"In that case you should ask on the CoFH Discord for help instead."
+				"&a&bhttps://discord.com/invite/uRKrnbH"
+			]
+			dependencies: ["0F0437DA98D76DD4"]
+			id: "76FD0C86890D8E96"
+			tasks: [{
+				id: "077989C65F295ABB"
+				type: "checkmark"
+				title: "Accept"
+			}]
+			rewards: [
+				{
+					id: "239CF21D1B5FFE74"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "thermal:guidebook"
+						}
+					}
+				}
+				{
+					id: "25BD5325CDA63DE5"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "littlelogistics:guide"
+						}
+					}
+				}
+				{
+					id: "340D9D953B22AA55"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "industrialforegoing:industrial_foregoing"
+						}
+					}
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}
