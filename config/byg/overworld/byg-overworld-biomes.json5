@@ -23,7 +23,10 @@ to make editing this file much easier.
 	   
 	   =====================
 	*/
-	"global_biome_swapper": { },
+	"global_biome_swapper": {
+		"byg:fragment_forest": "byg:cika_woods",
+		"byg:prairie": "byg:zelkova_forest"
+	},
 	// Global toggle to enable or disable BYG's overworld biomes.
 	"overworld_enabled": true,
 	/* A list of weighted regions containing a unique biome layout.
