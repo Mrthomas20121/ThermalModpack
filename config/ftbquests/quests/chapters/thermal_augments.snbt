@@ -1,0 +1,222 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "1B4D04E2CD3308ED"
+	id: "580BFE97521E9CB6"
+	filename: "thermal_augments"
+	default_quest_shape: ""
+	icon: "thermal:fluid_tank_augment"
+	title: "Thermal: Augments"
+	order_index: 1
+	quests: [
+		{
+			tasks: [{
+				id: "7E992AC5D9F64F48"
+				type: "item"
+				item: "thermal:xp_storage_augment"
+			}]
+			description: ["Allow Thermal Machines and devices to store Liquid Exp."]
+			id: "6DEB5F5BF41F682F"
+			y: 0.0d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "1065936B602DF75D"
+				type: "item"
+				item: "thermal:rf_coil_augment"
+			}]
+			description: ["Increase the RF Transfer and RF Capacity of a Machine by 4x."]
+			id: "7B70B572BF9B2793"
+			y: 0.0d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "3D0FC34622E08E64"
+				type: "item"
+				item: "thermal:rf_coil_storage_augment"
+			}]
+			description: [
+				"Increase the RF Capacity by 6x and RF transfer by 2x."
+				""
+				"Works on any thermal machines/devices with RF."
+			]
+			id: "07236863CC7D2436"
+			y: 0.0d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "6C5C15A6EDF06384"
+				type: "item"
+				item: "thermal:rf_coil_xfer_augment"
+			}]
+			description: [
+				"Increase the RF Capacity by 2x and RF transfer by 6x."
+				""
+				"Works on any thermal machines/devices with RF."
+			]
+			id: "374A45F5746EBA30"
+			y: 0.0d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "632AB4F7BC1461D3"
+				type: "item"
+				item: "thermal:fluid_tank_augment"
+			}]
+			description: ["Increase the Fluid storage of a machine/device by 4x."]
+			id: "4819458792D7AAA7"
+			y: 0.0d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "7FD7140FC3733E80"
+				type: "item"
+				item: "thermal:item_filter_augment"
+			}]
+			description: ["Allow you to filter what items can added/removed on a machine/device."]
+			id: "2418D497AE5B60DC"
+			y: 0.0d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "22A4F7CCCB636619"
+				type: "item"
+				item: "thermal:fluid_filter_augment"
+			}]
+			description: ["Allow you to filter what fluids can added/removed on a machine/device."]
+			id: "350F870D37A18487"
+			y: 0.0d
+			x: 5.0d
+		}
+		{
+			tasks: [{
+				id: "65FA4DBFC8B88608"
+				type: "item"
+				item: "thermal:machine_speed_augment"
+			}]
+			description: [""]
+			id: "3AFFD19EB22A213A"
+			y: 1.0d
+			x: -1.0d
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "491970B7BE915AA9"
+			tasks: [{
+				id: "7D26D8BFFAC73BEA"
+				type: "item"
+				item: "thermal:machine_efficiency_augment"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			id: "606AA16E58B2DDF1"
+			tasks: [{
+				id: "547D15ECE65201B9"
+				type: "item"
+				item: "thermal:machine_output_augment"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			id: "54DC8F8F8B2A1FD7"
+			tasks: [{
+				id: "443A314B37D64AEA"
+				type: "item"
+				item: "thermal:machine_catalyst_augment"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			id: "7C6AE2D1AA1B1805"
+			tasks: [{
+				id: "20A125295D57B343"
+				type: "item"
+				item: "thermal:machine_cycle_augment"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			id: "20D0E1A1878924B4"
+			tasks: [{
+				id: "53ABCD1C96807B80"
+				type: "item"
+				item: "thermal:machine_null_augment"
+			}]
+		}
+		{
+			tasks: [{
+				id: "3013F17F19C3A7C5"
+				type: "item"
+				item: "thermal:dynamo_output_augment"
+			}]
+			description: ["Dynamo Augment."]
+			id: "00ABF2C366094642"
+			y: 2.0d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "18BF1181E351EEF6"
+				type: "item"
+				item: "thermal:dynamo_fuel_augment"
+			}]
+			description: ["Dynamo Augment."]
+			id: "006E7A344F85433A"
+			y: 2.0d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "1EA950603A9262F7"
+				type: "item"
+				item: "thermal:dynamo_throttle_augment"
+			}]
+			description: ["Dynamo Augment."]
+			id: "7DDCBC7C6028F7D6"
+			y: 2.0d
+			x: 1.0d
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			id: "4E80591CF856D8BA"
+			tasks: [{
+				id: "213ECB0D58E576B3"
+				type: "item"
+				item: "thermal:area_radius_augment"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			id: "5106BB30BA39FC6F"
+			tasks: [{
+				id: "3D85588B290ED7F8"
+				type: "item"
+				item: "thermal:potion_amplifier_augment"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			id: "0C541C7D2D2D54F9"
+			tasks: [{
+				id: "1E7D3202709C82DD"
+				type: "item"
+				item: "thermal:potion_duration_augment"
+			}]
+		}
+	]
+}

@@ -1,0 +1,244 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "1B4D04E2CD3308ED"
+	id: "1534B110C87EAF76"
+	filename: "thermal_addons"
+	default_quest_shape: ""
+	icon: "thermal_extra:dragonsteel_ingot"
+	title: "Thermal: Addons"
+	order_index: 2
+	quests: [
+		{
+			tasks: [{
+				id: "045A71A31C2F2852"
+				type: "checkmark"
+				title: "Ok"
+			}]
+			description: [
+				"Thermal: Extra is an addon that add better tiers of augments."
+				""
+				"It also add a way to make RF from sunflower."
+			]
+			icon: "thermal_extra:soul_sand_dust"
+			id: "46F50F415FDA3E05"
+			x: -3.0d
+			y: 0.0d
+			title: "Thermal: Extra addon"
+		}
+		{
+			tasks: [{
+				id: "009063B99EE22D2F"
+				type: "checkmark"
+				title: "Ok"
+			}]
+			description: [
+				"Systeams is an addon for Thermal that add \"Steam\" Dynamos that generate Steam instead of RF."
+				""
+				"The Steam can then be used to make a Steam Dynamo to generate RF."
+			]
+			icon: "systeams:boiler_pipe"
+			id: "47B51356F76CC95D"
+			x: 3.0d
+			y: 0.0d
+			title: "Systeams Addon"
+			rewards: [{
+				id: "6BF3372E5BADE78B"
+				type: "item"
+				item: "systeams:boiler_pipe"
+			}]
+		}
+		{
+			tasks: [{
+				id: "2614E109FDA6674E"
+				type: "item"
+				item: "thermal_extra:soul_infused_ingot"
+			}]
+			dependencies: ["46F50F415FDA3E05"]
+			id: "08474C3B4F601154"
+			y: -2.0d
+			x: -4.5d
+			rewards: [{
+				id: "6FD05E711257F9AF"
+				type: "item"
+				item: "thermal_extra:soul_infused_ingot"
+			}]
+		}
+		{
+			tasks: [{
+				id: "6300D76C5EC4D04F"
+				type: "item"
+				item: "thermal_extra:shellite_ingot"
+			}]
+			dependencies: ["46F50F415FDA3E05"]
+			id: "1530BC746D5CD9AB"
+			y: -2.0d
+			x: -3.5d
+			rewards: [{
+				id: "5F5286AEAEE363FE"
+				type: "item"
+				item: "thermal_extra:shellite_ingot"
+			}]
+		}
+		{
+			tasks: [{
+				id: "4CD6305FF74AED9B"
+				type: "item"
+				item: "thermal_extra:twinite_ingot"
+			}]
+			dependencies: ["46F50F415FDA3E05"]
+			id: "4B079FDA5A3BF745"
+			y: -2.0d
+			x: -2.5d
+			rewards: [{
+				id: "1BB4545D8F1EAF70"
+				type: "item"
+				item: "thermal_extra:twinite_ingot"
+			}]
+		}
+		{
+			tasks: [{
+				id: "2401C679C033BA93"
+				type: "item"
+				item: "thermal_extra:dragonsteel_ingot"
+			}]
+			dependencies: ["46F50F415FDA3E05"]
+			id: "67BA293B5987FCB0"
+			y: -2.0d
+			x: -1.5d
+			rewards: [{
+				id: "26972197E65FDB08"
+				type: "item"
+				item: "thermal_extra:dragonsteel_ingot"
+			}]
+		}
+		{
+			tasks: [{
+				id: "1BA893139460ECBC"
+				type: "item"
+				item: "systeams:stirling_boiler"
+			}]
+			dependencies: ["47B51356F76CC95D"]
+			id: "2B1E1C196169EF08"
+			y: -2.0d
+			x: 0.0d
+			rewards: [{
+				id: "2443426226DC71D1"
+				type: "item"
+				item: "systeams:boiler_pipe"
+			}]
+		}
+		{
+			tasks: [{
+				id: "6B2AF27E237228F7"
+				type: "item"
+				item: "systeams:magmatic_boiler"
+			}]
+			dependencies: ["47B51356F76CC95D"]
+			id: "0BD7F60EF6943D90"
+			y: -2.0d
+			x: 1.0d
+			rewards: [{
+				id: "5A6E279A932C58DD"
+				type: "item"
+				item: "systeams:boiler_pipe"
+			}]
+		}
+		{
+			tasks: [{
+				id: "32BB01904008E81C"
+				type: "item"
+				item: "systeams:compression_boiler"
+			}]
+			dependencies: ["47B51356F76CC95D"]
+			id: "43BCFDECB32064D5"
+			y: -2.0d
+			x: 2.0d
+			rewards: [{
+				id: "2D9F71B141D9C0BA"
+				type: "item"
+				item: "systeams:boiler_pipe"
+			}]
+		}
+		{
+			tasks: [{
+				id: "3C005B735EC0130E"
+				type: "item"
+				item: "systeams:numismatic_boiler"
+			}]
+			dependencies: ["47B51356F76CC95D"]
+			id: "4F8F3DA16E854AAF"
+			y: -2.0d
+			x: 3.0d
+			rewards: [{
+				id: "65A9BBD33EFE6702"
+				type: "item"
+				item: "systeams:boiler_pipe"
+			}]
+		}
+		{
+			tasks: [{
+				id: "2FB9232AF35E500B"
+				type: "item"
+				item: "systeams:lapidary_boiler"
+			}]
+			dependencies: ["47B51356F76CC95D"]
+			id: "4B51E20D79CCAF52"
+			y: -2.0d
+			x: 4.0d
+			rewards: [{
+				id: "4DF15DE0C8381DC8"
+				type: "item"
+				item: "systeams:boiler_pipe"
+			}]
+		}
+		{
+			tasks: [{
+				id: "685E5A99DFE79C6D"
+				type: "item"
+				item: "systeams:disenchantment_boiler"
+			}]
+			dependencies: ["47B51356F76CC95D"]
+			id: "6745B9739EB9B1AA"
+			y: -2.0d
+			x: 5.0d
+			rewards: [{
+				id: "4646E65973656A8D"
+				type: "item"
+				item: "systeams:boiler_pipe"
+			}]
+		}
+		{
+			tasks: [{
+				id: "54FAF8E6BD91A536"
+				type: "item"
+				item: "systeams:gourmand_boiler"
+			}]
+			dependencies: ["47B51356F76CC95D"]
+			id: "796C6D7D5BB798E7"
+			y: -2.0d
+			x: 6.0d
+			rewards: [{
+				id: "2D6CB3491C3AB9B8"
+				type: "item"
+				item: "systeams:boiler_pipe"
+			}]
+		}
+		{
+			tasks: [{
+				id: "00FCAAE205AD62B3"
+				type: "item"
+				item: "systeams:steam_dynamo"
+			}]
+			dependencies: ["47B51356F76CC95D"]
+			id: "68124E0B2871E186"
+			y: 2.0d
+			x: 3.0d
+			rewards: [{
+				id: "6B090766318F8D1A"
+				type: "item"
+				item: "thermal:rf_coil"
+			}]
+		}
+	]
+}

@@ -1,13 +1,13 @@
 {
 	quest_links: [ ]
 	default_hide_dependency_lines: false
-	group: ""
+	group: "1B4D04E2CD3308ED"
 	id: "1C54CAD74F720387"
 	filename: "thermal"
 	default_quest_shape: ""
 	icon: "thermal:signalum_gear"
 	title: "Thermal: Machines"
-	order_index: 1
+	order_index: 0
 	quests: [
 		{
 			tasks: [
@@ -543,6 +543,7 @@
 					item: "minecraft:redstone"
 				}
 			]
+			description: ["Redstone and Iron are needed to make servos"]
 			id: "4AE3A88072F41106"
 			y: 2.0d
 			x: 5.0d
