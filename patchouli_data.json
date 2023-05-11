@@ -2,9 +2,53 @@
   "bookGuiScale": 0,
   "clickedVisualize": false,
   "bookData": {
+    "thermal:guidebook": {
+      "viewedEntries": [
+        "thermal:technology/augments/integral_components",
+        "thermal:guides/faq",
+        "thermal:storage_and_transport/dynamics",
+        "thermal:links/twitter",
+        "thermal:links/discord",
+        "thermal:links/ctm",
+        "thermal:links/contributions/spongeblast",
+        "thermal:links/contributions/shiny",
+        "thermal:links/contributions/hekera",
+        "thermal:links/contributions/floofhips",
+        "thermal:links/contributions/drullkus",
+        "thermal:links/contributions/onelemonyboi",
+        "thermal:links/contributions/darkangel22579",
+        "thermal:guides/modpack/augments",
+        "thermal:technology/devices/hive_extractor",
+        "thermal:technology/devices/fisher",
+        "thermal:technology/augments/xp_storage",
+        "thermal:technology/devices/soil_infuser",
+        "thermal:technology/augments/rf_coil_xfer",
+        "thermal:technology/devices/potion_diffuser",
+        "thermal:technology/devices/nullifier",
+        "thermal:technology/devices/collector",
+        "thermal:technology/devices/rock_gen",
+        "thermal:technology/dynamos/disenchantment",
+        "thermal:technology/dynamos/compression",
+        "thermal:technology/machines/chiller",
+        "thermal:technology/machines/smelter",
+        "thermal:world/materials/catalysts",
+        "thermal:technology/machines/centrifuge",
+        "thermal:technology/machines/press",
+        "thermal:technology/machines/pyrolyzer"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "sebastrnlib:sebastrn_mods_guide_book": {
       "viewedEntries": [
         "sebastrnlib:applied_cooking/kitchen_station_entry"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "industrialforegoing:industrial_foregoing": {
+      "viewedEntries": [
+        "industrialforegoing:resource_production/marine_fisher"
       ],
       "bookmarks": [],
       "completedManualQuests": []

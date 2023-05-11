@@ -1,12 +1,694 @@
 {
-	id: "1C54CAD74F720387"
-	group: ""
-	order_index: 1
-	filename: "thermal"
-	title: "Thermal"
-	icon: "thermal:energy_cell_frame"
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
-	quests: [ ]
 	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: ""
+	id: "1C54CAD74F720387"
+	filename: "thermal"
+	default_quest_shape: ""
+	icon: "thermal:signalum_gear"
+	title: "Thermal: Machines"
+	order_index: 1
+	quests: [
+		{
+			tasks: [
+				{
+					id: "4AC7080D9223EFB9"
+					type: "item"
+					item: "minecraft:raw_copper"
+				}
+				{
+					id: "07C309F0746D0A7A"
+					type: "item"
+					item: "thermal:raw_tin"
+				}
+				{
+					id: "4FA845112605A945"
+					type: "item"
+					item: "thermal:raw_lead"
+				}
+			]
+			description: [
+				"&bTin&r, &bLead&r and &bCopper&r are the main metal for thermal."
+				""
+				"They are used in a lot of recipes in thermal."
+			]
+			id: "5DFCF01420347E9B"
+			x: 3.0d
+			y: 2.0d
+			title: "Getting Started with Thermal"
+			rewards: [
+				{
+					id: "74D0550411AEAF11"
+					type: "item"
+					item: "thermal:raw_tin"
+					count: 3
+				}
+				{
+					id: "376E36540C1E463F"
+					type: "item"
+					item: "minecraft:raw_copper"
+					count: 3
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "32C3CDA2B2016135"
+				type: "item"
+				item: "thermal:dynamo_stirling"
+			}]
+			description: [
+				"The &c&lStirling Dynamo&r is a Dynamo that convert furnace fuel into energy."
+				""
+				"Use it to power your Machines early on."
+			]
+			id: "6A3A991D3E892183"
+			x: 2.0d
+			y: 1.0d
+			title: "Early Powergen"
+			rewards: [{
+				id: "1BCFCA1D9879BE4D"
+				type: "item"
+				item: "thermal:rf_coil"
+			}]
+			dependencies: ["5DFCF01420347E9B"]
+			hide_dependency_lines: false
+		}
+		{
+			tasks: [{
+				id: "47FABFDF3245C6DB"
+				type: "item"
+				item: "thermal:machine_furnace"
+			}]
+			description: ["The &6&lRedstone Furnace&r is a Furnace powered by Redstone Flux(RF)."]
+			dependencies: ["3BE2AE6172C47C5A"]
+			id: "0AE4CA81F8B25A5C"
+			y: 4.0d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "536629E6E16FDAC2"
+				type: "item"
+				item: "thermal:machine_pulverizer"
+			}]
+			description: [
+				"The &6&lPulverizer&r is a machine powered by Redstone Flux(RF) that can turn things into dusts and more(see JEI for recipes)."
+				""
+				"You can use it to try to get more from your ores early on."
+			]
+			dependencies: ["3BE2AE6172C47C5A"]
+			id: "6C3862DD24F73737"
+			y: 3.5d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "373B2F960C85590F"
+				type: "checkmark"
+				title: "Ok"
+			}]
+			description: [
+				"A &a&lBoostable Item&r is an item that can be put in the bottom slot of a Thermal Machine."
+				""
+				"When in the machine, they can boost recipes to make it yield more."
+				""
+				"Not all recipes can have the outputs boosted, See JEI for which recipe is boostable."
+				""
+				"Some &a&lThermal Augments&r can also have the outputs boosted."
+			]
+			icon: "thermal:wrench"
+			id: "072BF543B47F57A4"
+			x: 4.0d
+			y: 3.5d
+			title: "Boostable Items"
+		}
+		{
+			tasks: [{
+				id: "3A46A3BBA61B3603"
+				type: "checkmark"
+				title: "Ok"
+			}]
+			description: [
+				"&a&lThermal Augments&r are items used to boost Thermal Machines/Tools."
+				""
+				"To put an Augment in a Thermal Machine, Right click on the machine with the augment or use the Machine Gui to add it."
+				""
+				""
+				"{image:cofh_collection:textures/image/augment.png width:162 height:140 align:1}"
+				""
+				"Items like the &a&lFlux Capacitor&r or the &a&lFluxbore&r can be upgraded with augments in the Tinker Workbench."
+				""
+				"&a&lIntegral Component Augments&r boost the overall stats. You can only put one in each machine(Thermal will accept more than 1 but only 1 will be effective)."
+				""
+				"Other Aguments with stats don't have a requirement. You can put as many of them as you want in machines."
+			]
+			icon: "thermal:rf_coil_augment"
+			id: "6F8E1D1934D52C41"
+			x: 3.0d
+			y: 4.0d
+			title: "Augments"
+		}
+		{
+			tasks: [{
+				id: "351AD76E0A8B04BF"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+			description: ["&a&lMachine Frame&r is the base of every Thermal Machines(Not Dynamos!)."]
+			id: "3BE2AE6172C47C5A"
+			x: 0.0d
+			y: 1.0d
+			rewards: [{
+				id: "46418CAC6906BCC0"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+			dependencies: ["6A3A991D3E892183"]
+		}
+		{
+			tasks: [{
+				id: "61696F6330145982"
+				type: "item"
+				item: "thermal:machine_sawmill"
+			}]
+			description: ["The &6&lSawmill&r is machine that use Redstone Flux(RF) to chop things like logs."]
+			dependencies: ["3BE2AE6172C47C5A"]
+			id: "2D3937AF4341F200"
+			y: 3.0d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "02CCCBD4F5967051"
+				type: "item"
+				item: "thermal:machine_bottler"
+			}]
+			description: [
+				"The &6&lFluid Encapsulator&r is a Machine that use Redstone Fux(RF) with a fluid and an item to make an item."
+				""
+				"For example it can make water bucket from water+a bucket."
+			]
+			dependencies: ["3BE2AE6172C47C5A"]
+			id: "6295DE93F5B7D424"
+			y: 2.5d
+			x: -4.0d
+		}
+		{
+			tasks: [{
+				id: "4E295D44B5622971"
+				type: "item"
+				item: "thermal:redstone_servo"
+			}]
+			description: [
+				"The &a&lRedstone Servo&r is an item used in a lot of thermal recipes."
+				""
+				"It it best to autocraft it once you get to ae2."
+			]
+			dependencies: ["4AE3A88072F41106"]
+			id: "1C91C3C8C5D02948"
+			y: 2.0d
+			x: 7.5d
+		}
+		{
+			tasks: [{
+				id: "2500698F5999BFE3"
+				type: "item"
+				item: "thermal:device_hive_extractor"
+			}]
+			description: ["The &e&lHive Hopper&r is a &6Device&r that when placed under a hive will extract honey comb and liquid honey."]
+			id: "4BEFAA4B6AA7FF6C"
+			x: 6.0d
+			y: 0.5d
+			rewards: [{
+				id: "4251AD7FD23753E4"
+				type: "item"
+				item: "thermal:redstone_servo"
+			}]
+			dependencies: ["1C91C3C8C5D02948"]
+		}
+		{
+			tasks: [{
+				id: "75A1EB1C7F4B6AF2"
+				type: "item"
+				item: "thermal:device_tree_extractor"
+			}]
+			description: ["The &e&lArborial Extractor&r is a &6Device&r that extract fluid from trees."]
+			id: "7C3C0D2ECCF12D82"
+			x: 5.0d
+			y: 0.5d
+			rewards: [{
+				id: "38926FF11BE497C9"
+				type: "item"
+				item: "thermal:redstone_servo"
+			}]
+			dependencies: ["1C91C3C8C5D02948"]
+		}
+		{
+			tasks: [{
+				id: "7522BBCAC4CC2611"
+				type: "item"
+				item: "thermal:device_fisher"
+			}]
+			description: ["The &e&lAquatic Antangler&r is a &6Device&r that catch fishes while in water."]
+			dependencies: ["1C91C3C8C5D02948"]
+			id: "3E67F830296B4D8B"
+			y: 0.5d
+			x: 7.0d
+		}
+		{
+			tasks: [{
+				id: "600C9EF478873551"
+				type: "item"
+				item: "thermal:device_composter"
+			}]
+			description: [
+				"The &e&lBatch Composter&r is a &6Device&r that turn Compostable Items(See JEI) into compost."
+				""
+				"&dCompost&r can be used to grow crops like &dbonemeal&r."
+			]
+			dependencies: ["1C91C3C8C5D02948"]
+			id: "2ECDCF67926B304E"
+			y: 0.5d
+			x: 8.0d
+		}
+		{
+			tasks: [{
+				id: "2CEF1F0EF78DD3C7"
+				type: "item"
+				item: "thermal:device_soil_infuser"
+			}]
+			description: [
+				"The &e&lPhyto-soil Infuser&r is a &6Device&r that make crops crow faster on Phyto-Soil."
+				""
+				"By default the range is 3x3x3 but can be upgraded with &dRadial Enhancement&r augments to get up to 15x15x15(with the thermal extra mod)."
+				""
+				"&dIntegral Components&r make it run faster."
+			]
+			dependencies: ["1C91C3C8C5D02948"]
+			id: "2F001A8525C781CC"
+			y: 0.5d
+			x: 9.0d
+		}
+		{
+			tasks: [{
+				id: "19C7A0F215D470F4"
+				type: "item"
+				item: "thermal:device_water_gen"
+			}]
+			description: [
+				"The &e&lAqueous Accumulator&r is a &6Device&r that pump water."
+				""
+				"It need to be touching water on 2 sides to pump."
+			]
+			dependencies: ["1C91C3C8C5D02948"]
+			id: "0501E051210238F1"
+			y: 0.5d
+			x: 10.0d
+		}
+		{
+			tasks: [{
+				id: "4344D3EABE7294AF"
+				type: "item"
+				item: "thermal:device_rock_gen"
+			}]
+			description: ["The &e&lIgneous Extruder&r is a &6Device&r that will generate stone when provided with the appropriate blocks and fluids(See JEI for recipes)."]
+			dependencies: ["1C91C3C8C5D02948"]
+			id: "586451E56EB89307"
+			y: 3.5d
+			x: 5.0d
+		}
+		{
+			tasks: [{
+				id: "00547860D1FA6A30"
+				type: "item"
+				item: "thermal:device_collector"
+			}]
+			description: [
+				"The &e&lVacuumulator&r is a &6Device&r that can pickup items."
+				""
+				"It can pickup Experience with the &dKnowledge Concentrator&r augment."
+				""
+				"Range can be increased with &dRadial Enhancement&r augments."
+				""
+				"When controlled by redstone, the &dVacuumulator&r will instantly activate."
+			]
+			dependencies: ["1C91C3C8C5D02948"]
+			id: "62FF12340A97D393"
+			y: 3.5d
+			x: 6.0d
+		}
+		{
+			tasks: [{
+				id: "26CA7C5B3167705E"
+				type: "item"
+				item: "thermal:device_nullifier"
+			}]
+			description: ["The &e&lNullifer&r is a &6Device&r that can void items and fluids."]
+			dependencies: ["1C91C3C8C5D02948"]
+			id: "2DAFCF3AD58EA522"
+			y: 3.5d
+			x: 7.0d
+		}
+		{
+			tasks: [{
+				id: "0CCF431EB7513DFA"
+				type: "item"
+				item: "thermal:device_potion_diffuser"
+			}]
+			description: [
+				"The &e&lDecorative Diffuser&r is a &6Device&r that spread potions in an area."
+				""
+				"It is like vanilla lingering potions but instead take a potion fluid."
+			]
+			dependencies: ["1C91C3C8C5D02948"]
+			id: "3C1A3511A3E38213"
+			y: 3.5d
+			x: 8.0d
+		}
+		{
+			tasks: [{
+				id: "45AF04A27A344867"
+				type: "item"
+				item: "thermal:tinker_bench"
+			}]
+			description: ["The &e&lTinker's Workbench&r is a &6Device&r that can augment, fill and charge items."]
+			dependencies: ["1C91C3C8C5D02948"]
+			id: "351CFC91CEDB5724"
+			y: 3.5d
+			x: 9.0d
+		}
+		{
+			tasks: [{
+				id: "1D03F284AB142C9F"
+				type: "item"
+				item: "thermal:charge_bench"
+			}]
+			description: ["The &e&lEnergetic Infuser&r is a &6Device&r that can charge Redstone Flux(RF) Items quickly."]
+			dependencies: ["1C91C3C8C5D02948"]
+			id: "732E8BDBD7080600"
+			y: 3.5d
+			x: 10.0d
+		}
+		{
+			tasks: [{
+				id: "7A1161E2392ED130"
+				type: "item"
+				item: {
+					id: "thermal:energy_cell"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							EnergySend: 1000
+							Energy: 0
+							EnergyMax: 1000000
+							EnergyRecv: 1000
+						}
+					}
+				}
+			}]
+			description: [
+				"The &e&lRedstone Flux Cell&r is a &6Device&r that store Redstone Flux/Forge Energy."
+				""
+				"By default it can store 1 million RF but can be boosted with augments."
+			]
+			dependencies: ["1C91C3C8C5D02948"]
+			id: "258897D19C25625F"
+			y: 1.5d
+			x: 11.0d
+		}
+		{
+			tasks: [{
+				id: "106257768DBFCF26"
+				type: "item"
+				item: {
+					id: "thermal:fluid_cell"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								FluidName: "minecraft:empty"
+								Capacity: 32000
+								Amount: 0
+								Tank: 0b
+							}]
+						}
+					}
+				}
+			}]
+			description: [
+				"The &e&lFluid Cell&r is a &6Device&r that can store a fluid."
+				""
+				"By default, it hold 32000mB of a fluid but can upgraded with augments."
+			]
+			dependencies: ["1C91C3C8C5D02948"]
+			id: "0C8473DC1688269E"
+			y: 2.5d
+			x: 11.0d
+		}
+		{
+			tasks: [{
+				id: "0D22EE3431F9540D"
+				type: "item"
+				item: "thermal:dynamo_compression"
+			}]
+			description: ["The &c&lCompression Dynamo&r is a Dynamo that generate Redstone Flux(RF) from burnable fuel(fluid)."]
+			dependencies: ["6A3A991D3E892183"]
+			id: "230F58308A43E8A4"
+			y: -1.5d
+			x: 5.0d
+		}
+		{
+			tasks: [{
+				id: "4A9FD9E3370AED49"
+				type: "item"
+				item: "thermal:dynamo_magmatic"
+			}]
+			description: ["The &c&lMagmatic Dynamo&r is a Dynamo that uses Hot fluids like Lava to generate Redstone Flux(RF)."]
+			dependencies: ["6A3A991D3E892183"]
+			id: "65C1096E4691375D"
+			y: -3.5d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "63BBE6172F64D624"
+				type: "item"
+				item: "thermal:dynamo_numismatic"
+			}]
+			description: ["The &c&lNumismatic Dynamo&r is a Dynamo that generate Redstone Flux(RF) from coins."]
+			dependencies: ["6A3A991D3E892183"]
+			id: "299E7A7298591E37"
+			y: -2.5d
+			x: 4.5d
+		}
+		{
+			tasks: [{
+				id: "434969B795765E1F"
+				type: "item"
+				item: "thermal:dynamo_lapidary"
+			}]
+			description: ["The &c&lLapidary Dynamo&r is a Dynamo that generate Redstone Flux(RF) from gems."]
+			dependencies: ["6A3A991D3E892183"]
+			id: "1303B55027CEA7AF"
+			y: -0.5d
+			x: 5.0d
+		}
+		{
+			tasks: [{
+				id: "5C4290FD4D60C4D2"
+				type: "item"
+				item: "thermal:dynamo_disenchantment"
+			}]
+			description: ["The &c&lDisanchantment Dynamo&r is a Dynamo that uses enchanted items to generate Redstone Flux(RF)."]
+			dependencies: ["6A3A991D3E892183"]
+			id: "297EA9AEF052484B"
+			y: -3.0d
+			x: 2.0d
+		}
+		{
+			tasks: [{
+				id: "5408672DE1D21E84"
+				type: "item"
+				item: "thermal:dynamo_gourmand"
+			}]
+			description: ["The &c&lGourmand Dynamo&r is a Dynamo that generate Redstone Flux(RF) from food items/blocks."]
+			dependencies: ["6A3A991D3E892183"]
+			id: "4DA2CC918E6E6DF9"
+			y: -3.5d
+			x: 3.0d
+		}
+		{
+			tasks: [{
+				id: "4120F55A4BF07AAC"
+				type: "item"
+				item: "thermal:machine_chiller"
+			}]
+			description: ["The &6&lBlast Chiller&r is a machine powered by Redstone Flux(RF) that cool down and crystallizes fluids into a solid form."]
+			dependencies: ["3BE2AE6172C47C5A"]
+			id: "3B4042150B2A2FBD"
+			y: 1.5d
+			x: -4.0d
+		}
+		{
+			tasks: [
+				{
+					id: "0CF0C597CBCC4B31"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+				{
+					id: "6C1F06AF10F8DEC7"
+					type: "item"
+					item: "minecraft:redstone"
+				}
+			]
+			id: "4AE3A88072F41106"
+			y: 2.0d
+			x: 5.0d
+			title: "Servo?"
+		}
+		{
+			tasks: [{
+				id: "408C074411A2FACD"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+			description: ["The &6&lInduction Smelter&r is a machine powered by Redstone Flux(RF) that smelt multiple items into alloys and other things."]
+			dependencies: ["3BE2AE6172C47C5A"]
+			id: "6AE3403F7E21EAB4"
+			y: 0.5d
+			x: -4.0d
+		}
+		{
+			tasks: [{
+				id: "5D81B3B0717F0EC2"
+				type: "item"
+				item: "thermal:machine_insolator"
+			}]
+			description: ["The &6&lPhytogenic Insolator&r is a machine powered by Redstone Flux(RF) that can grow crops and saplings."]
+			dependencies: ["3BE2AE6172C47C5A"]
+			id: "3FAD722411D1E98B"
+			y: -0.5d
+			x: -3.5d
+		}
+		{
+			tasks: [{
+				id: "5339F6FAF76877FC"
+				type: "item"
+				item: "thermal:machine_crucible"
+			}]
+			description: ["The &6&lMagma Crucible&r is a machine powered by Redstone Flux(RF) that melt items and blocks into fluids."]
+			dependencies: ["3BE2AE6172C47C5A"]
+			id: "4CFC832A24583E26"
+			y: -1.5d
+			x: -3.0d
+		}
+		{
+			tasks: [{
+				id: "0EF65A1D31102BD8"
+				type: "item"
+				item: "thermal:machine_centrifuge"
+			}]
+			description: ["The &6&lCentrifugal Seperator&r is a machine powered by Redstone Flux(RF) that seperate items into their components(e.g electrum dust give silver and gold dust)."]
+			dependencies: ["3BE2AE6172C47C5A"]
+			id: "1A326B951CB0D1D4"
+			y: 4.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "40A875E88589C1B5"
+				type: "item"
+				item: "thermal:machine_press"
+			}]
+			description: [
+				"The &6&lMultiservo Press&r is a machine powered by Redstone Flux(RF) that uses dies to shape or compact items."
+				""
+				"The Gear die convert metals into gears."
+				""
+				"The Numismatic Die convert metals into coins."
+				""
+				"See JEI for the full list of dies."
+			]
+			dependencies: ["3BE2AE6172C47C5A"]
+			id: "335B4417A7F9C788"
+			y: 4.5d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "1DE372D3620E5382"
+				type: "item"
+				item: "thermal:machine_refinery"
+			}]
+			description: ["The &6&lFractionating Still&r is a machine powered by Redstone Flux(RF) used to refine fluids."]
+			dependencies: ["3BE2AE6172C47C5A"]
+			id: "39786AA2B7854A52"
+			y: -2.0d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "1FBD4AD8379EAE5A"
+				type: "item"
+				item: "thermal:machine_pyrolyzer"
+			}]
+			description: [
+				"The &6&lPyrolyser&r is a machine powered by Redstone Flux(RF) that decompose substance in a low-oxygen environment using it."
+				""
+				"It can be used to convert Organic Matter and coal into cleaner, long lasting Fuels."
+			]
+			dependencies: ["3BE2AE6172C47C5A"]
+			id: "27BBAB58BCF893D3"
+			y: -2.5d
+			x: -1.0d
+		}
+		{
+			tasks: [{
+				id: "1196C4430BE336E2"
+				type: "item"
+				item: "thermal:machine_brewer"
+			}]
+			description: [
+				"The &6&lAlchemical Imbuer&r is a machine powered by Redstone Flux(RF) that make a potion fluid from ingredients."
+				""
+				"It work just like a vanilla brewing stand but make a potion fluid instead of potions."
+				""
+				"The fluid can used in a Alchemical Quiver to add potion effect to your arrows."
+			]
+			dependencies: ["3BE2AE6172C47C5A"]
+			id: "19406EF1CEAE8AB7"
+			y: -2.5d
+			x: 0.0d
+		}
+		{
+			tasks: [{
+				id: "407FA09588024203"
+				type: "item"
+				item: "thermal:machine_crystallizer"
+			}]
+			description: ["The &6&lCrystallizer&r is a machine powered by Redstone Flux(RF) that convert dusts and other items into their crystal form."]
+			dependencies: ["3BE2AE6172C47C5A"]
+			id: "2B1D6256EB8AA861"
+			y: -2.0d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "4259DC4A3264AC98"
+				type: "item"
+				item: "thermal:machine_crafter"
+			}]
+			description: [
+				"The &6&lSequential Fabricator&r is a machine powered by Redstone Flux(RF) that autocraft crafting table recipes."
+				""
+				"It can be used to autocraft recipes that require a bucket of x fluid."
+			]
+			dependencies: ["3BE2AE6172C47C5A"]
+			id: "746589B4DDC5E075"
+			y: 4.5d
+			x: 2.0d
+		}
+	]
 }

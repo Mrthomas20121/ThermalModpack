@@ -1,19 +1,20 @@
 {
-	id: "28A6466A08CCD11B"
-	group: ""
-	order_index: 0
-	filename: "intro"
-	title: "Intro"
-	icon: "thermal:sugar_cane_block"
-	default_quest_shape: ""
+	quest_links: [ ]
 	default_hide_dependency_lines: false
+	group: ""
+	id: "28A6466A08CCD11B"
+	filename: "intro"
+	default_quest_shape: ""
+	icon: "thermal:sugar_cane_block"
+	title: "Intro"
+	order_index: 0
 	quests: [
 		{
-			title: "Welcome Guide!"
-			icon: "thermal:wrench"
-			x: 0.0d
-			y: 0.0d
-			subtitle: "Welcome Guide to CoFH's Collection"
+			tasks: [{
+				id: "3EF87736F7941DC2"
+				type: "checkmark"
+				title: "Accept"
+			}]
 			description: [
 				"&aCoFH's Collection&r is a modpack based on Team CoFH's Mods."
 				""
@@ -21,15 +22,25 @@
 				""
 				"Some mods has been tweaked to have a better compatibility with other mods."
 			]
+			icon: "thermal:wrench"
 			id: "0F0437DA98D76DD4"
+			x: 0.0d
+			y: 0.0d
+			title: "Welcome Guide!"
+			subtitle: "Welcome Guide to CoFH's Collection"
+		}
+		{
 			tasks: [{
-				id: "3EF87736F7941DC2"
+				id: "077989C65F295ABB"
 				type: "checkmark"
 				title: "Accept"
 			}]
-		}
-		{
-			title: "Books!"
+			description: [
+				"Here is the guide books for the mods in the pack."
+				""
+				"the thermal book may contain wrong information in which case it's best to ask on the cofh discord"
+				"&a&bhttps://discord.com/invite/uRKrnbH"
+			]
 			icon: {
 				id: "patchouli:guide_book"
 				Count: 1b
@@ -37,22 +48,10 @@
 					"patchouli:book": "thermal:guidebook"
 				}
 			}
+			id: "76FD0C86890D8E96"
 			x: 3.0d
 			y: 0.0d
-			description: [
-				"Here is the guide books for the mods in the pack."
-				""
-				"However the Thermal book contain outdated information."
-				"In that case you should ask on the CoFH Discord for help instead."
-				"&a&bhttps://discord.com/invite/uRKrnbH"
-			]
-			dependencies: ["0F0437DA98D76DD4"]
-			id: "76FD0C86890D8E96"
-			tasks: [{
-				id: "077989C65F295ABB"
-				type: "checkmark"
-				title: "Accept"
-			}]
+			title: "Books!"
 			rewards: [
 				{
 					id: "239CF21D1B5FFE74"
@@ -87,8 +86,13 @@
 						}
 					}
 				}
+				{
+					id: "16E5573E527AC417"
+					type: "item"
+					item: "byg:biomepedia"
+				}
 			]
+			dependencies: ["0F0437DA98D76DD4"]
 		}
 	]
-	quest_links: [ ]
 }
