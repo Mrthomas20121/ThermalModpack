@@ -1,0 +1,22 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      " D ",
+      " B ",
+      " R "
+    ],
+    "key": {
+      "D": {
+        "item": "thermal:device_collector"
+      },
+      "R": {
+        "item": "homespun:redstone_acid"
+      },
+      "B": {
+        "item": "prettypipes:blank_module"
+      }
+    },
+    "result": {
+      "item": "prettypipes:low_retrieval_module"
+    }
+  }

@@ -1,0 +1,17 @@
+{
+  "type": "thermal:bottler",
+  "ingredients": [
+    {
+      "tag": "forge:glass/colorless"
+    },
+    {
+      "fluid": "thermal:redstone",
+      "amount": 100
+    }
+  ],
+  "result": [
+    {
+      "item": "glassential:glass_redstone"
+    }
+  ]
+}

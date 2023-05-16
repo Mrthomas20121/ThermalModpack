@@ -34,7 +34,8 @@
         "thermal:world/materials/catalysts",
         "thermal:technology/machines/centrifuge",
         "thermal:technology/machines/press",
-        "thermal:technology/machines/pyrolyzer"
+        "thermal:technology/machines/pyrolyzer",
+        "thermal:technology/machines/introduction"
       ],
       "bookmarks": [],
       "completedManualQuests": []

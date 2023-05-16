@@ -1,0 +1,17 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "fluid": "thermal:latex",
+      "amount": 1000
+    },
+	{
+      "item": "thermal:chiller_ingot_cast"
+    }
+  ],
+  "result": [
+    {
+      "item": "industrialforegoing:plastic"
+    }
+  ]
+}

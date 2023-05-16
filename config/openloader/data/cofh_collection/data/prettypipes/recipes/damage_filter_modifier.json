@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " H ",
+        " M ",
+        " R "
+    ],
+    "key": {
+        "R": {
+            "item": "homespun:redstone_acid"
+        },
+        "H": {
+            "item": "minecraft:iron_pickaxe"
+        },
+        "M": {
+            "item": "prettypipes:blank_module"
+        }
+    },
+    "result": {
+        "item": "prettypipes:damage_filter_modifier"
+    }
+}

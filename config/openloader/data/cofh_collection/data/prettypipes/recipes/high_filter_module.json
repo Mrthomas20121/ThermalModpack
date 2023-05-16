@@ -1,0 +1,22 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+      " D ",
+      "RMR",
+      " R "
+    ],
+    "key": {
+        "D": {
+          "tag": "forge:dusts/soul_sand"
+        },
+        "R": {
+          "item": "homespun:redstone_acid"
+        },
+      "M": {
+        "item": "prettypipes:medium_filter_module"
+      }
+    },
+    "result": {
+      "item": "prettypipes:high_filter_module"
+    }
+  }
