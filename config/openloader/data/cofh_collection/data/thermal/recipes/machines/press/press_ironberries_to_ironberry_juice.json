@@ -1,0 +1,15 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "homespun:ironberries"
+    }
+  ],
+  "result": [
+    {
+      "fluid": "homespun:ironberry_juice",
+      "amount": 125
+    }
+  ],
+  "energy": 400
+}

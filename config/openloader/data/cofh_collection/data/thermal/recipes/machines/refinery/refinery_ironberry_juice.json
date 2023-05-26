@@ -1,0 +1,17 @@
+{
+    "type": "thermal:refinery",
+    "ingredient": {
+      "fluid": "homespun:ironberry_juice",
+      "amount": 250
+    },
+    "result": [
+      {
+        "fluid": "minecraft:water",
+        "amount": 100
+      },
+      {
+        "item": "homespun:tiny_iron_dust"
+      }
+    ],
+    "energy": 200
+  }
