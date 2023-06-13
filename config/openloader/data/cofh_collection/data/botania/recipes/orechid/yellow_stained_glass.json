@@ -1,0 +1,12 @@
+{
+  "type": "botania:orechid",
+  "input": {
+    "type": "block",
+    "block": "minecraft:sand"
+  },
+  "output": {
+    "type": "block",
+    "block": "minecraft:yellow_stained_glass"
+  },
+  "weight": 7000
+}

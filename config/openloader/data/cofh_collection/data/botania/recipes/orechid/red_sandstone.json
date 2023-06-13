@@ -1,0 +1,12 @@
+{
+  "type": "botania:orechid",
+  "input": {
+    "type": "block",
+    "block": "minecraft:red_sand"
+  },
+  "output": {
+    "type": "block",
+    "block": "minecraft:red_sandstone"
+  },
+  "weight": 2000
+}
