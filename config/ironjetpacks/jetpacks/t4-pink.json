@@ -5,7 +5,7 @@
   "color": "CA79CB",
   "armorPoints": 4,
   "enchantability": 12,
-  "craftingMaterial": "item:industrialforegoing:pink_slime_ingot",
+  "craftingMaterial": "tag:forge:pink_slime",
   "creative": false,
   "rarity": 0,
   "toughness": 0.0,

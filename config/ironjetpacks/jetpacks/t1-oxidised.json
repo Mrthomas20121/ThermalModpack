@@ -5,7 +5,7 @@
     "color": "4EA98E",
     "armorPoints": 2,
     "enchantability": 12,
-    "craftingMaterial": "item:minecraft:oxidized_copper",
+    "craftingMaterial": "tag:forge:oxidized",
     "creative": false,
     "rarity": 0,
     "toughness": 0.0,
