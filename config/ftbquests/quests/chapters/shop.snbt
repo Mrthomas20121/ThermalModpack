@@ -1,0 +1,52 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: ""
+	id: "270EA9414EBF6D25"
+	filename: "shop"
+	default_quest_shape: ""
+	icon: "minecraft:oak_sapling"
+	title: "Shop"
+	order_index: 1
+	quests: [
+		{
+			tasks: [{
+				id: "33EB7012EBA079DF"
+				type: "checkmark"
+				title: "Ok"
+			}]
+			description: [
+				"This quest chapter contain all of the items you can buy."
+				""
+				"Everything cost Rose Gold coins from Thermal. "
+			]
+			icon: "minecraft:guardian_spawn_egg"
+			id: "1271F3F8F8E41A43"
+			x: -2.5d
+			y: -0.5d
+			title: "Shop!"
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:oak_sapling"
+			id: "4069A1E454D0944C"
+			x: -7.5d
+			y: -6.0d
+			title: "Oak Sapling"
+			rewards: [{
+				id: "1E8ECB8A5DAE3FA8"
+				type: "item"
+				item: "minecraft:oak_sapling"
+			}]
+			tasks: [{
+				type: "item"
+				consume_items: true
+				id: "3A8C7554CA64C3E8"
+				icon: "thermal:rose_gold_coin"
+				item: "thermal:rose_gold_coin"
+				only_from_crafting: false
+				count: 3L
+			}]
+		}
+	]
+}

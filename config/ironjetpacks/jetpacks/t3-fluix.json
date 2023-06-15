@@ -5,7 +5,7 @@
   "color": "BE8EF4",
   "armorPoints": 2,
   "enchantability": 18,
-  "craftingMaterial": "item:ae2:fluix_crystal",
+  "craftingMaterial": "tag:ae2:all_fluix",
   "creative": false,
   "rarity": 0,
   "toughness": 0.0,
