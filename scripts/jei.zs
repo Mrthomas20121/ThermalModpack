@@ -1,8 +1,6 @@
 import mods.jeitweaker.Jei;
 import crafttweaker.api.item.IItemStack;
 
-// Jei.hideCategory(<resource:minecraft:smithing>);
-
 var thingsToHide = [
     <item:industrialforegoing:fluid_extractor>
 ] as IItemStack[];
