@@ -2,6 +2,14 @@
   "bookGuiScale": 0,
   "clickedVisualize": false,
   "bookData": {
+    "botania:lexicon": {
+      "viewedEntries": [
+        "botania:challenges/welcome",
+        "mythicbotany:mythic_botany/rune_rituals"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "thermal:guidebook": {
       "viewedEntries": [
         "thermal:technology/augments/integral_components",
